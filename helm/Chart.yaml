@@ -1,0 +1,14 @@
+apiVersion: v2
+name: sd-point-of-service
+description: "BIAN Service Domain: Point Of Service (Operate pattern, Sales and Service)"
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+keywords:
+  - bian
+  - operate
+annotations:
+  bian/business-area: "Sales and Service"
+  bian/business-domain: "Channels"
+  bian/asset-type: "POS Session"
+  bian/control-record: "POS Session Operating Session"
